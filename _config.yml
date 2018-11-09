@@ -90,7 +90,7 @@ symbols_count_time:
 
 deploy: 
   type: git
-  repo: https://github.com/Evan810/Evan810.github.io.git
+  repo: git@git.dev.tencent.com:zelvan/blog.git
   branch: master
   message: Site updated {{ now('YYYY-MM-DD HH:mm:ss') }}
 
@@ -98,3 +98,4 @@ links_title: Links
 links:
   NEXT使用文档: http://theme-next.iissnan.com/
   廖雪峰: https://www.liaoxuefeng.com/
+  菜鸟教程: http://www.runoob.com/
